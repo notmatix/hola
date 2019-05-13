@@ -1,7 +1,12 @@
-numero_inicial = 10
 
-while numero_inicial > 0:
-        numero_inicial -= 1
-        print (numero_inicial + 1)
+number_to_guess = 7
 
-print("He terminado")
+oportunidades = 5
+user_number = int(input("Adivina un numero: "))
+user2 = int(input("Perdiste, pero te quedan {} opotunidades: ".format(oportunidades - 1)))
+
+if number_to_guess != user_number:
+    user2
+elif number_to_guess == user2:
+    print("Has ganado")
+
